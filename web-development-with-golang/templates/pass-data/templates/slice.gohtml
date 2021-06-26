@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+</head>
+<body>
+<h1>Slice</h1>
+<ul>
+    {{range $in, $el := .}}
+    <li>{{$in}} - {{$el}}</li>
+    {{end}}
+</ul>
+</body>
+</html>
